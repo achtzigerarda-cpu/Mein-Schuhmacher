@@ -9,7 +9,6 @@ JavaScript. Läuft auf jedem Webspace, der Dateien ausliefern kann.
 ## Lokal ansehen
 
 ```bash
-cd site
 python3 -m http.server 8912
 ```
 
@@ -18,12 +17,11 @@ Dann <http://localhost:8912/> im Browser öffnen.
 ## Aufbau
 
 ```
-site/
-  index.html              gesamte Seite (eine Datei)
-  assets/css/styles.css   Gestaltung
-  assets/js/main.js       Mobilmenü, Öffnungsstatus, Einblendungen
-  assets/fonts/           Fraunces und Inter Tight, lokal (SIL OFL 1.1)
-  assets/img/             Fotos aus Laden und Werkstatt
+index.html              gesamte Seite (eine Datei)
+assets/css/styles.css   Gestaltung
+assets/js/main.js       Mobilmenü, Öffnungsstatus, Einblendungen
+assets/fonts/           Fraunces und Inter Tight, lokal (SIL OFL 1.1)
+assets/img/             Fotos aus Laden und Werkstatt
 ```
 
 ## Besonderheiten
@@ -51,4 +49,4 @@ site/
 ## Schriften
 
 Fraunces (Undercase Type) und Inter Tight (Rasmus Andersson), beide unter der
-SIL Open Font License 1.1 — Lizenztexte in `site/assets/fonts/`.
+SIL Open Font License 1.1 — Lizenztexte in `assets/fonts/`.
