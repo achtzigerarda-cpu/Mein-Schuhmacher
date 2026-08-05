@@ -1,0 +1,20 @@
+.DS_Store
+*.log
+
+# Lokale Werkzeug-Einstellungen
+.claude/
+
+# Referenz-Screenshot einer fremden Website (mushstudios.co) — nicht veröffentlichen
+screencapture-*.png
+
+# Original-Fotos in voller Auflösung.
+# Die für das Web verkleinerten Fassungen liegen in site/assets/img/
+Schuhmacher1.png
+Schuhmacher2.jpg
+Schuhmacher3.jpg
+Schuhmacher4.jpg
+Schuhmacher5.png
+Schuhmacher6.jpg
+
+# Arbeitsdatei mit Design-Vorgaben
+CLAUDEwebdesign*.md
