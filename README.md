@@ -38,8 +38,11 @@ assets/img/             Fotos aus Laden und Werkstatt
 
 ## Offen vor dem Livegang
 
-- [ ] **Impressum und Datenschutzerklärung** anlegen und in der Fußzeile verlinken
-      (in Deutschland gesetzlich vorgeschrieben)
+- [ ] **Rechtstexte einsetzen:** `impressum.html` und `datenschutz.html` stehen
+      bereits und sind in der Fußzeile verlinkt, enthalten aber nur einen sichtbaren
+      Platzhalter in eckigen Klammern. Den fertigen Text (z. B. aus einem Generator)
+      dort einsetzen und den Platzhalter löschen — in Deutschland gesetzlich
+      vorgeschrieben
 - [ ] Echten Google-Rezensions-Link (`https://g.page/r/…/review`) im Kontaktbereich
       eintragen — dort steht bisher ersatzweise eine Google-Maps-Suche
 - [ ] Texte gegenlesen: „ohne Termin", „bezahlt wird bei der Abholung",

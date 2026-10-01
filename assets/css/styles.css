@@ -498,6 +498,28 @@ h1,h2,h3{
 .hours tr.is-today th,
 .hours tr.is-today td{ color:#E6C68A; font-weight:600; }
 
+/* ---------- Rechtliche Unterseiten ---------- */
+
+.legal{ min-height:46vh; }
+.legal__title{
+  font-size:clamp(2.4rem,6.5vw,4.2rem);
+  margin-bottom:clamp(26px,4vw,44px);
+}
+.legal__placeholder{
+  margin:0;
+  max-width:52ch;
+  padding:clamp(22px,3vw,34px);
+  border:2px dashed var(--gold);
+  border-radius:var(--r-lg);
+  background:var(--paper);
+  color:var(--gold-ink);
+  font-size:clamp(.92rem,2vw,1.05rem);
+  font-weight:600;
+  letter-spacing:.09em;
+  line-height:1.6;
+  text-transform:uppercase;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer{ padding:0 var(--pad); max-width:1360px; margin-inline:auto; overflow:hidden; }
@@ -545,6 +567,8 @@ h1,h2,h3{
 }
 .site-footer__legal a{ text-decoration:none; }
 .site-footer__legal a:hover{ color:var(--ink); }
+.site-footer__legal a[aria-current="page"]{ color:var(--ink); }
+.site-footer__legal-links{ display:flex; flex-wrap:wrap; gap:8px 20px; }
 
 .site-footer__giant{
   margin:clamp(10px,2vw,24px) 0 -.18em;
@@ -628,4 +652,10 @@ h1,h2,h3{
 
 @media (min-width:1200px){
   .service p{ max-width:44ch; }
+}
+
+/* Auf den Unterseiten fehlt der große Schriftzug im Hero — deshalb bleibt
+   der Namenszug in der Kopfzeile auch auf breiten Bildschirmen sichtbar. */
+@media (min-width:900px){
+  body.page-legal .nav__brand{ display:inline-block; }
 }
